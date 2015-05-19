@@ -1,8 +1,8 @@
 # Site settings
-title: Clean Blog
+title: Radoslav Blog
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Radoslav Blog - java ruby linux"
 baseurl: ""
 url: "http://radoslav.github.io"
 twitter_username: radoslav_
