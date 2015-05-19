@@ -9,7 +9,10 @@ header-img: "img/post-bg-04.jpg"
 
 ## Create new maven project.
 
-	$ mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```bash
+$ mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
+
 
 ```
 └── my-app
@@ -88,6 +91,7 @@ Compile and target for Java 8 and newest JUnit version.
 ## JUnit
 
 The Unit test is a part of the Maven default project configuration. Maven runs tests automatically if following criteria are met:
+
  - The tests are in /src/test/java
  - The test class name  starts or ends with "Test" or "TestCase"
 
