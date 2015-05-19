@@ -13,6 +13,7 @@ header-img: "img/post-bg-04.jpg"
 $ mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
+The Maven archetype-quickstart  will create file structure:
 
 ```
 └── my-app
