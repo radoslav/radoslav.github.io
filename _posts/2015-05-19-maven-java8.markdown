@@ -87,10 +87,10 @@ Compile and target for Java 8 and newest JUnit version.
 
 ## JUnit
 
-> The Unit test is a part of the Maven default project configuration. Maven runs tests automatically if following criteria are met:
-> 
-> - The tests are in /src/test/java
-> - The test class name  starts or ends with "Test" or "TestCase"
+The Unit test is a part of the Maven default project configuration. Maven runs tests automatically if following criteria are met:
+
+ - The tests are in /src/test/java
+ - The test class name  starts or ends with "Test" or "TestCase"
 
 ## Links
 
