@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Installing and Configuring WildFly 8.2 as service (GNU/Linux)."
+title:      "Installing and configuring WildFly 8.2 as service (GNU/Linux)."
 subtitle:   "WildFly (JBoss AS) is a java application server"
 date:       2015-05-19 16:00:00
 author:     "radoslav"
@@ -10,7 +10,7 @@ header-img: "img/post-bg-03.jpg"
 ## Install wildfly 8.2 as service
 
 ### script for install wildfly
-info: https://gist.github.com/sukharevd/6087988
+info: [https://gist.github.com/sukharevd/6087988](https://gist.github.com/sukharevd/6087988)
 
 	wget https://gist.githubusercontent.com/sukharevd/6087988/raw/efcab01424e739f509a0537728ab3764d3d4fa26/wildfly-install.sh -O wildfly-install.sh
 
@@ -32,7 +32,7 @@ Install wildfly and run as service
 
 ### Generate new certificate
 
-What is your first and last name? = must be a DNS server name (my.company.pl)
+What is your first and last name? = must be a DNS server name (server.company.pl)
 add kyestore to /opt/wildfly/standalone/configuration
 
 	$JAVA_HOME/bin/keytool -genkey -alias server -keyalg RSA -keystore server.keystore -validity 3650
