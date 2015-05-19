@@ -95,6 +95,9 @@ Compile and target for Java 8 and newest JUnit version.
 ## Links
 
 [Maven home page](https://maven.apache.org/)
+
 [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+
 [maven-compiler-plugin](http://maven.apache.org/plugins/maven-compiler-plugin/)
+
 [JUnit home page](http://junit.org/)
