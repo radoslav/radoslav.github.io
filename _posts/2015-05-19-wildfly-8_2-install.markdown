@@ -10,11 +10,13 @@ header-img: "img/post-bg-03.jpg"
 ## Install wildfly 8.2 as service
 
 ### script for install wildfly
+
 info: [https://gist.github.com/sukharevd/6087988](https://gist.github.com/sukharevd/6087988)
 
 	wget https://gist.githubusercontent.com/sukharevd/6087988/raw/efcab01424e739f509a0537728ab3764d3d4fa26/wildfly-install.sh -O wildfly-install.sh
 
 ### Cut section echo "Configuring application server..."
+
 Because I prefer manual configuration.
 Install wildfly and run as service
 
@@ -38,9 +40,11 @@ add kyestore to /opt/wildfly/standalone/configuration
 	$JAVA_HOME/bin/keytool -genkey -alias server -keyalg RSA -keystore server.keystore -validity 3650
 
 ### Configuration file (standalone)
+
 /opt/wildfly/standalne/configuration/standalone.xml
 
 ### Secure the Management-Console
+
 add keystore to ManagementRealm (security-realm name="ManagementRealm")
 
             <security-realm name="ManagementRealm">
@@ -80,6 +84,7 @@ edit http-listner, add redirect http to https (subsystem xmlns="urn:jboss:domain
 
 
 ### Listen for "any-address" on interfaces
+
 Edit section
 
 	<interfaces>
@@ -95,6 +100,7 @@ Edit section
 	</interfaces>
 
 ### Set UTF-8 Encoding
+
 change line from:
 
 	<servlet-container name="default">
@@ -104,6 +110,7 @@ to:
 	<servlet-container name="default" use-listener-encoding="true" default-encoding="UTF-8">
 
 ## PREROUTING port 80 and 443
+
 Wildfly can not open port 80 and 443 because is not running as root.
 
 	iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
