@@ -36,6 +36,7 @@ The Maven archetype-quickstart  will create file structure:
 ## Edit file pom.xml.
 
 Compile and target for Java 8 and newest JUnit version.
+[Sample app on github.](https://github.com/radoslav/maven-quickstart-java8)
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -97,7 +98,7 @@ The Unit test is a part of the Maven default project configuration. Maven runs t
  - The test class name  starts or ends with "Test" or "TestCase"
 
 ## Links
-- [sample app on github](https://github.com/radoslav/maven-quickstart-java8)
+
 - [Maven home page](https://maven.apache.org/)
 - [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 - [maven-compiler-plugin](http://maven.apache.org/plugins/maven-compiler-plugin/)
