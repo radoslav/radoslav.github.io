@@ -1,7 +1,7 @@
 # Site settings
 title: Radoslav Blog
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+# email: your-email@yourdomain.com
 description: "Radoslav Blog - java ruby GNU/Linux ubuntu"
 baseurl: ""
 url: "http://radoslav.github.io"
