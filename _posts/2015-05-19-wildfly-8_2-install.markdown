@@ -158,3 +158,10 @@ Save PREROUTING
 	service iptables save
 ```
 
+### Save on ubuntu 16.04
+
+```bash
+sudo apt-get install iptables-persistent
+sudo netfilter-persistent save
+sudo netfilter-persistent reload
+```
